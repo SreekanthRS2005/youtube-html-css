@@ -1,0 +1,214 @@
+.sree1{
+    object-fit: fill;
+    width: 200px;
+    height: 300px;
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    transition: all 0.5s;
+
+
+}
+.sree1:hover{
+    cursor: pointer;
+    
+  transform: translateY(-20px) scale(0.9);
+    
+}
+.content{
+    width: 200px;
+    
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.content:hover{
+    color: black;
+    text-decoration: underline;
+   
+}
+.bal{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-color: black;
+    border-style: solid;
+}
+.bal:hover{
+    
+    cursor: pointer;
+    color: black;
+    transition: all 0.5s;
+  transform: translateY(20px) scale(0.9);
+}
+.yname{
+    width: 2000px;
+    font-family: 'Courier New', Courier, monospace;
+    
+    font-weight: bold;
+}
+.yname:hover{
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+}
+.views{
+    width: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.views:hover{
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    
+}
+.parentdiv{
+    display: grid;
+    grid-row: 30px;
+    grid-column: 30px;
+    gap: 10px;
+    width: 300px;
+
+    
+
+    
+    
+}
+.mainparent{
+    width: 100%;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    
+    
+ 
+}
+.side{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+    margin-bottom: 40px;
+    
+    
+
+
+
+}
+.leftside{
+    background-color: white;
+    justify-content: space-between;
+    
+}
+.middle{
+    
+    border-radius: 10px;
+    justify-content: space-evenly;
+    border-bottom: 2px;
+    box-shadow: inset 1px 2px 5px rgba(0,0,0,0.15);
+    
+    
+   
+    
+}
+.rightside{
+    background-color: white;
+    width: 250px;
+    height: 40px;
+    justify-content: space-between;
+    
+    
+}
+.box{
+    width: 300px;
+    height: 40px;
+}
+.box:hover{
+    background-color: white;
+    box-shadow: rgb(98, 92, 92);
+}
+.ytb{
+    height: 40px;
+    width: 85px;
+    border-radius: 2px;
+    border-color: black;
+    margin-right: 15px;
+}
+.ytb2{
+    height: 30px;
+    width: 40px;
+    border-radius: 2px;
+    border-color:black ;
+    margin-left: 15px;
+}
+.ytb3{
+    height: 30px;
+    width: 40px;
+    border-radius: 2px;
+    border-color: black;
+    margin-right: 15px;
+}
+.ytb4{
+    height: 30px;
+    width: 40px;
+    border-radius: 2px;
+    border-color: black;
+    margin-right: 15px;
+
+
+}
+.ytb:hover,
+.ytb2:hover,
+.ytb3:hover,
+.ytb4:hover,
+.ytb5:hover{
+    cursor: pointer;
+    transition: all 0.9s;
+    transform: translateY(20px) scale(0.9);
+     border-style: solid;
+
+}
+.ytb5{
+    height: 30px;
+    width: 30px;
+    size: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    
+    border-radius: 2px;
+    border-color: black;
+    margin-left: 15px;
+
+
+}
+.rtdiv{
+    display: flex;
+    flex: row;
+    
+    
+}
+.bt1{
+    border-radius: 2px;
+    border-color: black;
+}
+.box{
+    box-shadow: inset 1px 2px 5px black(0,0,0,0.15);
+}
+.middle::placeholder{
+    padding-left: 200px;
+    font-family: 'Times New Roman', Times, serif;
+}
